@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  background: #FAFAFF;
+  font-family: 'Roboto', arial;
+  color: #444;
+}
+main {
+  background: white;
+  width: 640px;
+  margin: 3rem auto;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+}
+header img {
+  margin-left: 2rem;
+}
+header div {
+  background: #1C2452;
+  color: white;
+  padding: .5rem 1rem .5rem .6rem;
+  border-radius: 2.5rem 0 0 2.5rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+header div svg {
+  margin-right: .3rem;
+}
+section {
+  font-size: 1.5rem;
+  color:#0701EB;
+  text-align: center;
+  font-weight: 600;
+  padding: 0 20%;
+  padding-bottom: 1rem;
+}
+article {
+  padding: 1rem 3rem;
+}
+article p {
+  text-align: justify;
+  text-align-last: center;
+  margin: 1.5rem 1rem;
+  font-size: 1.2rem;
+}
+article p span {
+  color: #0701EB;
+  font-weight: bold;
+}
+.buttons {
+  margin: 1rem;
+}
+.buttons, .buttons button {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
+.buttons button {
+  margin: 0 .3rem;
+  background: #0701EB;
+  border: unset;
+  color: white;
+  border-radius: .6rem;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  align-items: center;
+}
+.buttons button span {
+  display: block;
+  padding: .4rem 1.2rem;
+  font-weight: 500;
+}
+.icons {
+  border-bottom: 2px solid #ccc;
+  margin: 0 2rem;
+  padding-bottom: 1rem;
+}
+.icons h2 {
+  text-align: center;
+  color: #0701EB;
+  font-size: 1.7rem;
+}
+.items {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.item {
+  flex-basis: calc(33% - 1rem);
+  margin: .5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.item b {
+  margin-top: .7rem;
+  text-align: center;
+  font-size: 1.2rem;
+}
+.item small {
+  font-weight: bold;
+  line-height: 1rem;
+}
+.item span {
+  font-size: small;
+  text-align: center;
+}
+.nota { margin: 1rem 0; }
+.nota span {
+  font-size: 2.5rem;
+  font-weight: bold;
+  display: block;
+  line-height: 1;
+}
+footer {
+  background: #1C2452;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.3rem;
+}
+.reference {
+  display: flex;
+  margin: 2rem 3rem;
+}
+.reference img {
+  width: 150px;
+  border-radius: 100%;
+}
+.reference div {
+  display: block;
+}
+.reference span {
+  color: gold;
+  font-size: 1.6rem;
+  margin-left: 1rem;
+}
+.reference p {
+  margin: 0;
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  text-align: justify;
+}
+.reference h3 {
+  margin: 0;
+  font-size: 1.7rem;
+  line-height: 1;
+  margin-left: 1rem;
+}
+
